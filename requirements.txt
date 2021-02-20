@@ -4,4 +4,5 @@ nbsphinx
 pandas
 pandas_datareader
 scipy
-ta-lib
+# need to manually install, otherwise, readthedocs can't process the docs
+# ta-lib
