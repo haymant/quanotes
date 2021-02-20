@@ -4,5 +4,6 @@ nbsphinx
 pandas
 pandas_datareader
 scipy
+seaborn
 # need to manually install, otherwise, readthedocs can't process the docs
 # ta-lib
