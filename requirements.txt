@@ -1,0 +1,7 @@
+cython
+matplotlib
+nbsphinx
+pandas
+pandas_datareader
+scipy
+ta-lib

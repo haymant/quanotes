@@ -19,6 +19,12 @@ Document Structure
 
 .. toctree::
    :maxdepth: 3
+   :caption: Environment Setup:
+
+   TA-Lib <setup/ta-lib.rst>
+
+.. toctree::
+   :maxdepth: 3
    :caption: Products:
 
    Product List <products/index.rst>
@@ -28,3 +34,9 @@ Document Structure
    :caption: Datasets:
 
    Quandl <datasets/quandl.rst>
+
+.. toctree::
+   :maxdepth: 3
+   :caption: Experiments:
+
+   Basic Data Operations <handson/data.ipynb>   
