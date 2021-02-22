@@ -33,10 +33,11 @@ Document Structure
    :maxdepth: 3
    :caption: Datasets:
 
-   Quandl <datasets/quandl.rst>
+   Datasets <datasets/index.rst>
 
 .. toctree::
    :maxdepth: 3
    :caption: Experiments:
 
    Basic Data Operations <handson/data.ipynb>   
+   Calculate Portfolio Sharpe Ratio <handson/sharpe.ipynb>
