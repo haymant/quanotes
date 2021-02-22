@@ -40,4 +40,4 @@ Document Structure
    :caption: Experiments:
 
    Basic Data Operations <handson/data.ipynb>   
-   Calculate Portfolio Sharpe Ratio <handson/sharpe.ipynb>
+   Portfolio Analysis (Return/Sharpe/Alpha/Beta) <handson/portfolio.ipynb>
