@@ -22,6 +22,7 @@ Document Structure
    :caption: Environment Setup:
 
    TA-Lib <setup/ta-lib.rst>
+   Latex for Math <setup/latex.rst>
 
 .. toctree::
    :maxdepth: 3
@@ -41,3 +42,9 @@ Document Structure
 
    Basic Data Operations <handson/data.ipynb>   
    Portfolio Analysis (Return/Sharpe/Alpha/Beta) <handson/portfolio.ipynb>
+
+.. toctree::
+   :maxdepth: 3
+   :caption: Knowledges:
+
+   Life is long gamma <fe/gamma.rst>

@@ -30,8 +30,11 @@ release = '0.1'
 # ones.
 extensions = [
     'nbsphinx',
+    'sphinx.ext.imgmath', 
 ]
 
+# pngmath_latex = "/usr/bin/latex"
+# pngmath_dvipng = "/usr/bin/dvipng"
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
