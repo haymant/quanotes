@@ -22,7 +22,7 @@ Document Structure
    :caption: Environment Setup:
 
    TA-Lib <setup/ta-lib.rst>
-   Latex for Math <setup/math.rst>
+   Write Math <setup/math.rst>
 
 .. toctree::
    :maxdepth: 3
