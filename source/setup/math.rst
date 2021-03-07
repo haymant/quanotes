@@ -1,11 +1,14 @@
 ============================================================
-``Latex For Math``
+``Math Writing``
 ============================================================
 
 In the notes, latex would be used to populate math formulas. 
 
+Formula
+=======
+
 Install Latex
-==============
+-------------
 
 Here is basic install for Ubuntu
 
@@ -25,7 +28,7 @@ Once latex is installed on your machine, add the following line to conf.py
 
 
 Write Your Formula
-==================
+------------------
 
 Let's see a basic math formula example:
 
@@ -43,8 +46,8 @@ And the generated image is:
 Plot
 ====
 
-Install Latex
---------------
+Install metplotlib
+------------------
 
 .. code-block:: bash
 
@@ -57,6 +60,22 @@ Install Latex
     'sphinxcontrib.needs',
     'matplotlib.sphinxext.plot_directive', 
    # ]
+
+Sample Plotting
+---------------
+
+.. code-block:: bash
+
+  import matplotlib.pyplot as plt
+
+  import numpy as np
+  x = np.random.randn(1000)
+  plt.hist( x, 20)
+  plt.grid()
+  plt.title(r'Normal: $\mu=%.2f, \sigma=%.2f$'%(x.mean(), x.std()))
+  plt.show()
+
+The codes generate the following chart.
 
 .. plot::
 
