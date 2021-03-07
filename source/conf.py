@@ -33,10 +33,8 @@ extensions = [
     'sphinx.ext.imgmath', 
 ]
 
-# pngmath_latex = "/usr/bin/latex"
-# pngmath_dvipng = "/usr/bin/dvipng"
-# Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates']
+imgmath_image_format = 'svg'
+
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
