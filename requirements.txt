@@ -1,9 +1,12 @@
 cython
-matplotlib
 nbsphinx
 pandas
 pandas_datareader
 scipy
 seaborn
+# math and plot
+matplotlib
+sphinxcontrib-needs
+sphinxcontrib-plantuml
 # need to manually install, otherwise, readthedocs can't process the docs
 # ta-lib
