@@ -38,3 +38,34 @@ And the generated image is:
 
 .. math::
   F = G \left( \frac{m_1 m_2}{r^2} \right)
+
+
+Plot
+====
+
+Install Latex
+--------------
+
+.. code-block:: bash
+
+   sudo apt install dvipng
+   pip install matplotlib sphinxcontrib-needs sphinxcontrib-plantuml
+
+.. code-block:: bash
+
+   # extensions = [
+    'sphinxcontrib.needs',
+    'matplotlib.sphinxext.plot_directive', 
+   # ]
+
+.. plot::
+
+   # Load matplotlib
+   import matplotlib.pyplot as plt
+
+   import numpy as np
+   x = np.random.randn(1000)
+   plt.hist( x, 20)
+   plt.grid()
+   plt.title(r'Normal: $\mu=%.2f, \sigma=%.2f$'%(x.mean(), x.std()))
+   plt.show()

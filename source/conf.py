@@ -31,6 +31,8 @@ release = '0.1'
 extensions = [
     'nbsphinx',
     'sphinx.ext.imgmath', 
+    'sphinxcontrib.needs',
+    'matplotlib.sphinxext.plot_directive', 
 ]
 
 imgmath_image_format = 'svg'
