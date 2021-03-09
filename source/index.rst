@@ -48,3 +48,4 @@ Document Structure
    :caption: Knowledges:
 
    Life is long gamma <fe/gamma.rst>
+   Big Short and Strategies <fe/bigshort.rst>

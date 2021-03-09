@@ -29,8 +29,9 @@ Black Scholes Formula gives price of an option:
   N(d_1)S_t - N(d_2) PresentValue(K)
 
 :math:`N(x)` is the standard normal cumulative distribution function. :math:`N(d_1)` is :math:`\Delta` and :math:`N(d_2)` is dual delta.
-The price is roughly, if the stock price random walk
-results in the money, the value to execute it multiply the probability, couting hedge cost in the life cycle of the option.
+The price is the cost beared by the option writer if the option is executed, i.e., if the stock price random walk
+results in the money, the hedge cost of option writer in the life cycle of the option, minus present 
+value of strike that writer would receive (times probability of in the money).
 
 Nassim Taleb states "Life is Long Gamma". What is its meaning? Basically life is full of option, if you want take option, you
 long Gamma. Here I briefly go through it.
@@ -76,12 +77,15 @@ with respect to underlying, it is drawn using np.gradient() function. Sigmoid is
 Long Option is Long Gamma
 --------------------------
 
+
 Some simple rules of greeks:
 
-- Long option always get positive Gamma (Long Option is Long Gamma)
-- Long Call/Short Put get positive Delta
-- Short Call/Long Put get negative Delta
-  
+- Long option always get positive Gamma (Long Option is Long Gamma).
+- Long Call/Short Put get positive Delta.
+- Short Call/Long Put get negative Delta.
+- Negative Gamma implies chasing the market.
+- Positive Gamma implies bargain hunted and always profitable when market moves to favorable direction.
+-   
 Delta Hedge
 ------------
 
@@ -93,15 +97,15 @@ move to, the total value of option and underlying won't change. This is so-calle
 
 
 
-.. image:: iv.PNG   
-
-.. image:: ivsurface.PNG
-
 Gamma Adjustment
 ----------------------
 
+.. image:: greeks.png
 
 
+.. image:: iv.PNG   
+
+.. image:: ivsurface.PNG
 
 Gamma Sequenze
 ----------------------
