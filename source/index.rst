@@ -49,3 +49,4 @@ Document Structure
 
    Life is long gamma <fe/gamma.rst>
    Big Short and Strategies <fe/bigshort.rst>
+   Technical Analaysis Indicators <fe/taindicator.rst>
