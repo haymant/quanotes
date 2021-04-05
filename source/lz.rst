@@ -20,3 +20,10 @@ Document Structure
    :caption: Product Management Basic:
 
    Basic <pm/basic.rst>
+   
+
+   .. toctree::
+   :maxdepth: 3
+   :caption: Product Management Basic:
+
+   Big Sur on NUC5I3RYH <miscs/bigsurnuc5.rst>
