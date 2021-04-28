@@ -46,3 +46,9 @@ Strategy
 - Operation
 - Org Culture
 - Technique Stack
+
+
+Process
+=======
+
+.. image:: OPP.png

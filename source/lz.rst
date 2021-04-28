@@ -22,8 +22,11 @@ Document Structure
    Basic <pm/basic.rst>
    
 
-   .. toctree::
+.. toctree::
    :maxdepth: 3
-   :caption: Product Management Basic:
+   :caption: Deep Learning:
 
-   Big Sur on NUC5I3RYH <miscs/bigsurnuc5.rst>
+   Introduction <dl/dlnotes.rst>
+   Basic <dl/basic.rst>
+   
+

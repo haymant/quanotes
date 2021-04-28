@@ -23,6 +23,7 @@ Document Structure
 
    TA-Lib <setup/ta-lib.rst>
    Write Math <setup/math.rst>
+   Big Sur on NUC5I3RYH <miscs/bigsurnuc5.rst>
 
 .. toctree::
    :maxdepth: 3
