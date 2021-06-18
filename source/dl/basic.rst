@@ -2,6 +2,8 @@
 ``Basics``
 ==========================
 
+Andrew Ng has great introduction video on Youtube (deeplearing.ai). And `here
+<https://www.analyticsvidhya.com/blog/2018/10/introduction-neural-networks-deep-learning/>`_ records notes of it.
 
 Logistic Regression
 ===================
@@ -81,8 +83,24 @@ is another optimization way.
   -log(1-\tilde{y_i}) | Y=0 \\
   \end{cases}
 
+Activation Function
+-------------------
+
+.. image:: neuron.png
+
+Other than limit range of output, and resemble biological neural system, more importantly, non-linear activation function can
+deal with problem which just not solveable by linear function. ReLU is more frequently used than Sigmoid and its loss function
+resemble SVM's. Section 7.1.2 of Pattern Recognition and Machine Learning discusses more.
 
 Regularization
 --------------
 
 To avoid overfitting, we may penalize :math:`w` by adding a function of :math:`w` to the cost function.
+
+
+Computation Graph
+-----------------
+
+
+Back Propagation
+-----------------

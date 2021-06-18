@@ -43,6 +43,7 @@ Document Structure
 
    Basic Data Operations <handson/data.ipynb>   
    Portfolio Analysis (Return/Sharpe/Alpha/Beta) <handson/portfolio.ipynb>
+   Qlib Walkthrough <handson/qlib.rst>
 
 .. toctree::
    :maxdepth: 3

@@ -9,4 +9,5 @@ Introduction
 
 - `Quandl <quandl.rst>`_
 - `IEX <iex.rst>`_
+- `Yahoo <yahoo.rst>`_
 - FMPCloud
