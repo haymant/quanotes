@@ -21,6 +21,8 @@ Document Structure
    :maxdepth: 3
    :caption: Environment Setup:
 
+   Editor <setup/vim.rst>
+   Python <setup/python.rst>
    TA-Lib <setup/ta-lib.rst>
    Write Math <setup/math.rst>
    Big Sur on NUC5I3RYH <miscs/bigsurnuc5.rst>
