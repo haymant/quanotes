@@ -1,5 +1,6 @@
 cython
 nbsphinx
+pandoc
 pandas
 pandas_datareader
 scipy
