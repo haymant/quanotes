@@ -26,6 +26,7 @@ Document Structure
    TA-Lib <setup/ta-lib.rst>
    Write Math <setup/math.rst>
    Big Sur on NUC5I3RYH <miscs/bigsurnuc5.rst>
+   Ubuntu 21.10+ on Lenovo T5 26AMR5 <miscs/UbuntuT5.rst>
 
 .. toctree::
    :maxdepth: 3
