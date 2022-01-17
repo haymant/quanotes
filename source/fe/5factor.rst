@@ -16,4 +16,4 @@ stock return (IRR of expected dividends).
     m_t = \sum_{\tau=1}^{\infty} \frac{E(d_{t+\tau})}{(1+r)^\tau}
 
 This formula gives intuitive relationship that expected return of a stock should be higher (higher risk)
-when its market value is lower, if dividends are same. 
+when its market value is lower, if dividends are same.

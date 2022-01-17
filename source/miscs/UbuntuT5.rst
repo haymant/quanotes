@@ -2,6 +2,14 @@
 ``Ubuntu 21.10+ on Lenovo T5 26amr5``
 ============================================================
 
+Windows Key
+===========
+
+.. code-block:: bash
+
+  sudo strings /sys/firmware/acpi/tables/MSDM 
+
+
 File System
 ===========
 
@@ -25,10 +33,7 @@ we would either temporarily tether Bluetooth/Ethernet to a Windows machine,
 assuming the Windows machine enabled mobile hotpot via Bluetooth or shared
 its wifi via Ethernet. Bluetooth is quite slow to install packages though.
 
-When I once tried to enable a new propriety driver for nvidia 3060ti, the 
-kernel is updated and caused Bluetooth and Ethernet problem. To avoid the
-troubles, I don't update Nvidia drivers and lock kernel version if no great
-reason. 
+For reference we can lock kernel version using the commands:
 
 .. code-block:: bash
 
@@ -83,6 +88,17 @@ change sound level of it, until it's adjusted via command line:
 .. code-block:: bash
 
   alsamixer
+
+Bilibili
+========
+
+Use chromium and install extra decoders:
+
+.. code-block:: bash
+
+  sudo apt install ubuntu-restricted-extras
+
+
 
 
 Deep Learning Setup
