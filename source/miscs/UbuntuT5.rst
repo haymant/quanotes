@@ -104,6 +104,7 @@ Use chromium and install extra decoders:
 Deep Learning Setup
 ===================
 
+If we disabled SecureBoot, and install Nvidia driver, it won't enroll MOK key for the driver. Once SecureBoot is enabled again, the driver will stop working. In this case, we can reinstall Nvidia driver in additional drivers, which will guide to enroll MOK key.
 
 Cuda Install
 ------------
